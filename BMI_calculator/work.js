@@ -7,6 +7,6 @@ form.addEventListener('submit',function(e)
     const weight=parseInt(document.querySelector('#weight').value);
     
     const BMI=(weight/((height*height)/100)).toFixed(2)
-   const result=document.querySelector('#results    x')
+   const result=document.querySelector('#results')
    result.textContent=BMI
 })
